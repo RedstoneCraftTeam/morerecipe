@@ -8,7 +8,7 @@ public class ModLaunch implements ClientModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("rsc_morerecipe");
 
     @Override
-    public void onInitialize() {
+    public void onInitializeClient() {
         LOGGER.info("More recipes, by littlekan233(RedstoneCraftTeam).");
         LOGGER.info("Launched! version: 1.0.0");
     }
